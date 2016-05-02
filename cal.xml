@@ -1,0 +1,16 @@
+<project name="rbs" basedir="." default="1">
+
+ <target name="3">
+    <echo message="print number 3"/>
+</target>	
+
+<target name="1" depends="3">
+    <echo message="print number 1"/>
+</target>	
+
+<target name="2">
+    <echo message="print number 2"/>
+</target>	
+
+</project>	
+ 
